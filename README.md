@@ -1,8 +1,10 @@
 # Distributed Boolean Computing (DBC) Toolbox 
-This repository was created to share the algorithm and database contained in our recent ACS Synthetic Biology paper.
+This repository was created to share the algorithm and database contained in our recent ACS Synthetic Biology paper. 
 > **Distributed implementation of Boolean functions by transcriptional synthetic circuits**
-M. Ali Al-Radhawi, Anh Phong Tran, Elizabeth A. Ernst, Tianchi Chen, Christopher A. Voigt, and Eduardo D. Sontag
+> M. Ali Al-Radhawi, Anh Phong Tran, Elizabeth A. Ernst, Tianchi Chen, Christopher A. Voigt, and Eduardo D. Sontag
 ACS Synthetic Biology (2020). DOI: 10.1021/acssynbio.0c00228
+
+The code is under MIT license in order to help dissemination of the work. Please cite us if this work came to be helpful.
 
 ## Diffusible small molecules (DSM)
 Oftentimes, as circuits to be implemented in a given cell becomes too large, toxicity becomes a limiting factor. This translates in practice to cells containing 6-7 gates. Only 11.69% of 4-input Boolean functions are implementable using 7 gates, so one way to alleviate this problem is allowing cells to communicate using DSMs. 
@@ -20,18 +22,24 @@ In designing Boolean circuits in cell, there are strong biological constraints t
 - Partitioning: we partition existing circuits that represent the full-fledged logical circuit from an existing database into smaller pieces that communicates using DSMs. We hope to add functions to allow communicating or importing files with other tools.
  
 The internal details of how these methodologies operate can be found in the published work.
+
 <p align="center">
-<img src="images/design_flowchart.png" width="700">
+<img src="images/design_flowchart.png" width="750">
 </p>
+
 ## Examples
 #### 14 gates implemented using the DNF method using 3 cells and at most 6 gates in a cell (0x977E)
+
 <p align="center">
 <img src="images/example_14gates_DNF.png" width="350">
 </p>
+
 #### 13 gates using 3 DSMs and the DNF method
+
 <p align="center">
 <img src="images/example_13gates_DNF.png" width="600">
 </p>
+
 ## Use
 
 
