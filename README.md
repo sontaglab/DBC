@@ -6,7 +6,9 @@ ACS Synthetic Biology (2020). DOI: 10.1021/acssynbio.0c00228
 
 ## Diffusible small molecules (DSM)
 Oftentimes, as circuits to be implemented in a given cell becomes too large, toxicity becomes a limiting factor. This translates in practice to cells containing 6-7 gates. Only 11.69% of 4-input Boolean functions are implementable using 7 gates, so one way to alleviate this problem is allowing cells to communicate using DSMs. 
-![DSM](images/DSM.png)
+
+![DSM](images/DSM.png | width=400)
+
 In our workflow, DSMs can be used to communicate a result from a cell to another cell located "downstream" within a circuit design. Another way is to use the output of multiple cells as an OR gate (essentially if any of the cells produce that DSM, then the output is assumed to be of value 1 regardless of concentration).
 
 ## Summary of the framework
@@ -16,13 +18,13 @@ In designing Boolean circuits in cell, there are strong biological constraints t
 - Partitioning: we partition existing circuits that represent the full-fledged logical circuit from an existing database into smaller pieces that communicates using DSMs. We hope to add functions to allow communicating or importing files with other tools.
  
 The internal details of how these methodologies operate can be found in the published work.
-![Design_Flowchart](images/design_flowchart.png)
+![Design_Flowchart](images/design_flowchart.png | width=500)
 
 ## Examples
 #### 14 gates implemented using the DNF method using 3 cells and at most 6 gates in a cell (0x977E)
-![14 gates example](images/example_14gates_DNF.png)
+![14 gates example](images/example_14gates_DNF.png | width=350)
 #### 13 gates using 3 DSMs and the DNF method
-![14 gates example](images/example_13gates_DNF.png)
+![14 gates example](images/example_13gates_DNF.png | width=450)
 
 ## Use
 
