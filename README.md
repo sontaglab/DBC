@@ -63,11 +63,13 @@ While more functions will be produced over time to facilitate the usability of t
 </p>
 
 The partition function will show a graph and all possible partitions that are valid under the assumption provided by N. So far, we have written this algorithm to handle up to 2 QS, but plan on extending it.
-> **get_partition(32220,8)**
+
 <p align="center">
 <img src="images/partition_32220_N_8.png" width="550">
 </p>
->Partitioning possible with g_{5} and g_{8}
+
+> **get_partition(32220,8)**
+Partitioning possible with g_{5} and g_{8}
 Final NOR gates with 2 QS in series: 1 / 7 / 6 
 >Partitioning possible with g_{6} and g_{9}
 Final NOR gates with 2 QS in series: 7 / 1 / 3 
