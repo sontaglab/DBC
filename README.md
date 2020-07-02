@@ -1,6 +1,7 @@
 # Distributed Boolean Computing (DBC) Toolbox 
 This repository was created to share the algorithm and database contained in our recent ACS Synthetic Biology paper. 
 > **Distributed implementation of Boolean functions by transcriptional synthetic circuits**
+>
 > M. Ali Al-Radhawi, Anh Phong Tran, Elizabeth A. Ernst, Tianchi Chen, Christopher A. Voigt, and Eduardo D. Sontag
 ACS Synthetic Biology (2020). DOI: 10.1021/acssynbio.0c00228
 
@@ -69,32 +70,60 @@ The partition function will show a graph and all possible partitions that are va
 </p>
 
 > **get_partition(32220,8)**
-Partitioning possible with g_{5} and g_{8}
-Final NOR gates with 2 QS in series: 1 / 7 / 6 
+>
+>Partitioning possible with g_{5} and g_{8}
+>
+>Final NOR gates with 2 QS in series: 1 / 7 / 6 
+>
 >Partitioning possible with g_{6} and g_{9}
-Final NOR gates with 2 QS in series: 7 / 1 / 3 
-Partitioning possible with g_{7} and g_{9}
-Final NOR gates with 2 QS in series: 3 / 5 / 3 
-Partitioning possible with g_{7} and g_{8}
-Final NOR gates with 2 QS in series: 6 / 2 / 6 
-Partitioning possible with g_{7} and g_{13}
-Final NOR gates with 2 QS in series: 6 / 7 / 1 
-Partitioning possible with g_{7} and g_{10}
-Final NOR gates with 2 QS in series: 6 / 6 / 2 
-Partitioning possible with g_{7} and g_{12}
-Final NOR gates with 2 QS in series: 5 / 7 / 1 
-Partitioning possible with g_{9} and g_{13}
-Final NOR gates with 2 QS in parallel: 7 / 3 / 1 
-Partitioning possible with g_{9} and g_{10}
-Final NOR gates with 2 QS in parallel: 6 / 3 / 2 
-Partitioning possible with g_{8} and g_{6}
-Final NOR gates with 2 QS in parallel: 4 / 6 / 4 
-Partitioning possible with g_{8} and g_{9}
-Final NOR gates with 2 QS in series: 5 / 3 / 3 
-Partitioning possible with g_{8} and g_{13}
-Final NOR gates with 2 QS in parallel: 7 / 6 / 1 
-Partitioning possible with g_{8} and g_{11}
-Final NOR gates with 2 QS in parallel: 6 / 6 / 2 
-Partitioning possible with g_{8} and g_{12}
-Final NOR gates with 2 QS in series: 7 / 5 / 1 
+>
+>Final NOR gates with 2 QS in series: 7 / 1 / 3 
+>
+>Partitioning possible with g_{7} and g_{9}
+>
+>Final NOR gates with 2 QS in series: 3 / 5 / 3 
+>
+>Partitioning possible with g_{7} and g_{8}
+>
+>Final NOR gates with 2 QS in series: 6 / 2 / 6 
+>
+>Partitioning possible with g_{7} and g_{13}
+>
+>Final NOR gates with 2 QS in series: 6 / 7 / 1 
+>
+>Partitioning possible with g_{7} and g_{10}
+>
+>Final NOR gates with 2 QS in series: 6 / 6 / 2 
+>
+>Partitioning possible with g_{7} and g_{12}
+>
+>Final NOR gates with 2 QS in series: 5 / 7 / 1 
+>
+>Partitioning possible with g_{9} and g_{13}
+>
+>Final NOR gates with 2 QS in parallel: 7 / 3 / 1 
+>
+>Partitioning possible with g_{9} and g_{10}
+>
+>Final NOR gates with 2 QS in parallel: 6 / 3 / 2 
+>
+>Partitioning possible with g_{8} and g_{6}
+>
+>Final NOR gates with 2 QS in parallel: 4 / 6 / 4 
+>
+>Partitioning possible with g_{8} and g_{9}
+>
+>Final NOR gates with 2 QS in series: 5 / 3 / 3 
+>
+>Partitioning possible with g_{8} and g_{13}
+>
+>Final NOR gates with 2 QS in parallel: 7 / 6 / 1 
+>
+>Partitioning possible with g_{8} and g_{11}
+>
+>Final NOR gates with 2 QS in parallel: 6 / 6 / 2 
+>
+>Partitioning possible with g_{8} and g_{12}
+>
+>Final NOR gates with 2 QS in series: 7 / 5 / 1 
 
